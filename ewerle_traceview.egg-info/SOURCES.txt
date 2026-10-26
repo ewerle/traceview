@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+traceview.py
+ewerle_traceview.egg-info/PKG-INFO
+ewerle_traceview.egg-info/SOURCES.txt
+ewerle_traceview.egg-info/dependency_links.txt
+ewerle_traceview.egg-info/entry_points.txt
+ewerle_traceview.egg-info/top_level.txt
