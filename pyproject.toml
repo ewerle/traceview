@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ewerle-traceview"
+version = "0.1.0"
+description = "把调用事件按阶段排成时间线，标出最慢的环节与可能的重试。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "ewerle" }]
+keywords = ["observability", "tracing", "llm", "latency"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://ewerle.github.io"
+Repository = "https://github.com/ewerle/traceview"
+Issues = "https://github.com/ewerle/traceview/issues"
+
+[project.scripts]
+traceview = "traceview:main"
+
+[tool.setuptools]
+py-modules = ["traceview"]
